@@ -1,0 +1,17 @@
+{
+    "name": "eleve/php-certificate-generator",
+    "autoload": {
+        "psr-4": {
+            "Eleve\\PhpCertificateGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azaou123",
+            "email": "azawbadr@gmail.com"
+        }
+    ],
+    "require": {
+        "setasign/fpdf": "^1.8"
+    }
+}

@@ -1,0 +1,72 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: 600;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #3a5bbf;
+    border-color: #3a5bbf;
+}
+
+/* Form styles */
+.form-control:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+}
+
+/* Table styles */
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
